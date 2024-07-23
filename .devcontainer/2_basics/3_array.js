@@ -30,3 +30,10 @@ console.log(Array.isArray("Ritesh"));
 console.log(Array.from("Ritesh")); // using from
 
 console.log(Array.from({name:"Ritesh"})); // interesting  // yha pe ye hame empty array dega ?
+
+
+let num1 = 100
+let num2 = 200
+let num3 = 300
+// variable to array conversion
+console.log(Array.of(num1,num2,num3));
