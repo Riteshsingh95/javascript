@@ -25,7 +25,7 @@ console.log("another_array",annother_array);
 console.log("real_another_array",real_another_array);
 
 
-console.log(Array.isArray("Ritesh"));
+console.log(Array.isArray("Ritesh"));  // isArray ye btata hai ki ye ye value array hai ki nahi
 // string to array conversion 
 console.log(Array.from("Ritesh")); // using from
 
