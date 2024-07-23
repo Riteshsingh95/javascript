@@ -29,4 +29,4 @@ console.log(Array.isArray("Ritesh"));
 // string to array conversion 
 console.log(Array.from("Ritesh")); // using from
 
-console.log(Array.from({name:"Ritesh"}));  // yha pe ye hame empty array dega 
+console.log(Array.from({name:"Ritesh"})); // interesting  // yha pe ye hame empty array dega ?
