@@ -16,19 +16,31 @@ console.log("obj4 is",obj4);
 
 /******************************** Object Nesting ************************/
 
-const app = {
-    email:"ritesh@gmail.com",  // string
-    username:{         // object
-        fullname:{
-            firstname:"ritesh",
-            lastname:"singh"
-        }
-       
-    }
-}
+const person = {
+    details:{
 
-console.log(app.username.fullname);
-console.log(app.email);
+    name: {
+      firstName: "Ritesh",
+      lastName: "Singh"
+    },
+    address: {
+      city: "Gorakhpur",
+      country: "INDIA"
+    },
+    hobbies: ["reading", "traveling", "sports"],
 
-// console.log( typeof app.username.fullname);
-// console.log(typeof app.email);
+    contact:{
+        email: "ritesh@gmail.com",
+        phone: "9517118016"
+      },
+    },
+  };
+console.log(person.details);
+
+// console.log( typeof person);
+
+console.log(person);
+console.log(Object.keys(person.details)); //! important , yha pe jitni keys hain wo sb array me store ho gayi hain .
+console.log(Object.values(person.details)); // ye saare object k value ko show kr deta hai aur ek array mein store kr deta hai .
+
+
