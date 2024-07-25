@@ -35,12 +35,16 @@ const person = {
       },
     },
   };
-console.log(person.details);
+// console.log(person.details);
 
 // console.log( typeof person);
 
 console.log(person);
-console.log(Object.keys(person.details)); //! important , yha pe jitni keys hain wo sb array me store ho gayi hain .
-console.log(Object.values(person.details)); // ye saare object k value ko show kr deta hai aur ek array mein store kr deta hai .
+console.log(Object.keys(person.details));     //! important , yha pe jitni keys hain wo sb array me store ho gayi hain .
+console.log(Object.values(person.details));   // ye saare object k value ko show kr deta hai aur ek array mein store kr deta hai .
 
+console.log(Object.entries(person.details));  // yha pr kya hota hai hr ek key value ko array bna diya jaata hai
 
+console.log(Object.values(person.details));
+
+// console.log(person.hasOwnProperty("city"));
