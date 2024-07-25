@@ -1,5 +1,8 @@
 
 
+// object literals  
+
+
 const user = {
     name:"Ritesh",
     age:22,
