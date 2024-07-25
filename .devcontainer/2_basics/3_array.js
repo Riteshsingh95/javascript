@@ -8,7 +8,7 @@ const Aus_team = ["Maxwell","Starc","Warner"]
 const newz_team = ["boult","conway","sentner"]
 
 const IPL = ind_team.concat(...Aus_team, ...newz_team)  // concat func()  se hm 2 ya usse jyada arrays ko merge kr sakte hain
-
+// const IPL = (...ind_team,...Aus_team,...newz_team) // spred operator
 console.log("Ind",ind_team);
 console.log("Aus",Aus_team);
 console.log("Newz",newz_team);
