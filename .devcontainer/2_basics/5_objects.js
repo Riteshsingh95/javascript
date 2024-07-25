@@ -48,3 +48,30 @@ console.log(Object.entries(person.details));  // yha pr kya hota hai hr ek key v
 console.log(Object.values(person.details));
 
 // console.log(person.hasOwnProperty("city"));
+
+
+
+
+
+/**************************** object destuctor *******************************/
+
+
+const person2 = {
+    name:"little",
+    age:22,
+    city:"Gorakhpur"
+}
+
+
+// destructing
+const {name,age,city} = person2;
+// Destructuring makes it easy to work with object properties directly.
+// console.log(name);
+console.log(city);
+console.log(age);
+
+/* Renaming Variables:
+You can rename the variables while destructuring:   */
+
+const {name:fullname,} =person2
+console.log(fullname);
