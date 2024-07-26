@@ -1,6 +1,7 @@
 
 
-// function userloginmessage(username="ritesh") {  // agar user koi value nahi deta hai to ham apne parameter ko ek default value de sakte hain es tarah se aur kabhi jb user value dega to parameter ki value ko override kr dega
+// function userloginmessage(username="ritesh") {  // agar user koi value nahi deta hai to ham apne parameter ko ek default value de sakte hain es tarah se,
+//  aur kabhi jb user value dega to parameter ki value ko override kr dega.
     
 function userloginmessage(username="ritesh") {
 if (!username) {
