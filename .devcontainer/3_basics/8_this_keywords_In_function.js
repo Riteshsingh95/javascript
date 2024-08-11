@@ -1,6 +1,7 @@
 
 
-/***************** Arrow Function ******************/
+
+/***************** this keywoerds in function ******************/
 
 const user={
     username:"ritesh",
