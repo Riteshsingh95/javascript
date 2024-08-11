@@ -27,3 +27,26 @@ user.welcomemassage()    // for "raghu"
 
 // console.log();  // yha pr jo global object h,ye empty{} object hoga
 // aur browser k ander jo global object hota hai wo window object hota hai
+
+
+/**************************************** arrow function ********************************************/
+
+// BAISC ARROW FUNCTION
+
+// const addtwo = (num1,num2) => {
+    // return num1+num2
+// }
+
+// implicit arrow function
+
+const addtwo = (num1,num2) => (num1+num2)  // Implicit Return: Agar aap single expression return kar rahe hain, toh {} aur return keyword ki zaroorat nahi.
+// Agar function body mein ek hi expression hai, toh aap curly braces {} aur return keyword ko omit kar sakte hain:
+
+
+console.log(addtwo(10,19));
+
+/*
+const addtwo = (num1,num2) => ({username:"ritesh"})
+console.log(addtwo(10,19));
+
+*/
